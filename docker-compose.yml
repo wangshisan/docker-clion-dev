@@ -11,5 +11,5 @@ services:
       - "7776:22"
       - "7777:7777"
     volumes:
-      - .:/code
+      - ../remote/rsync:/tmp
 
